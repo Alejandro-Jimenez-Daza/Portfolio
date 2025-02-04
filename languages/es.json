@@ -1,0 +1,35 @@
+{
+    "profile": {
+        "rol": "Desarrollador front-end junior",
+        "description": "Soy una persona dedicada y comprometida, con experiencia profesional y prácticas realizadas en la Liga de Natación de Antioquia, donde trabajé durante 8 meses. Valoro el aprendizaje constante y disfruto asumir nuevos retos que me permitan crecer tanto personal como profesionalmente."
+    },
+    "experience": {
+        "first-job-title": "Desarrollador junior full-stack",
+        "first-job-dates": "Abril 2024 - Diciembre 2024",
+        "first-job-description": "Administré y optimicé bases de datos MySQL/MariaDB, desarrollé y mantuve aplicaciones web heredadas en PHP utilizando Scriptcase, e implementé interfaces en HTML y CSS. Además, colaboré en la instalación y mantenimiento del sistema Swiss Timing Aquatics, asegurando su operatividad junto al equipo técnico.",
+        "second-job-title": "Desarrollador Front-end",
+        "second-job-dates": "Feb 2000 - Mar 2005",
+        "second-job-description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "last-job-title": "Desarrollador Front-end",
+        "last-job-dates": "Feb 2017 - Actualmente",
+        "last-job-description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+    },
+    "hobbies": {
+        "first-hobbie-title": "Calistenia",
+        "first-description": "Entreno calistenia varias veces a la semana, disfrutando el desafío de levantar mi propio peso y superando mis récords personales. Me motiva la mejora constante y la disciplina que este entrenamiento requiere!",
+        "second-hobbie-title": "Diseño multimedia",
+        "second-description": "Me apasiona el diseño, creando logos, imágenes y explorando nuevas tendencias. Siempre busco aprender y mejorar, manteniéndome actualizado con las últimas innovaciones en el mundo del diseño!"
+    },
+    "projects": {
+        "first-project-title": "Crud orchid",
+        "first-project": "Implementé un panel administrativo en Laravel con Orchid, generando automáticamente un sistema de gestión con permisos y roles, optimizado para administración de datos de manera eficiente.",
+        "second-project-title": "Crud .NET Autos",
+        "second-project": "Desarrollé un sistema CRUD para gestión de autos utilizando C# con MVC en .NET 6 y SQL Server. Implementé una arquitectura modular que permite administrar vehículos de manera eficiente.",
+        "third-project-title": "Inventario Qt Designer",
+        "third-project": "Desarrollé un sistema de inventario con Python, Qt Designer 5 y SqLite, creando una interfaz intuitiva y atractiva para una gestión eficiente y visualmente agradable de los productos."
+    },
+    "mini-etiquetas": {
+        "disenno": "Diseño",
+        "annos-xp": "Años de experiencia."
+    }
+}

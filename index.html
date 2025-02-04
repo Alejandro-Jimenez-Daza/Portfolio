@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Portfolio</title>
+  <link rel="icon" href="assets/images/icon.png" type="image/png">
+</head>
+
+<body class="dark">
+  <header class="header">
+    <div class="switches">
+      <div id="toggle-theme" class="toggle-theme">
+        <img id="toggle-icon" src="assets/icons/moon.svg" alt="" class="toggle-theme__icon">
+        <p id="toggle-text" class="toggle-teme__text">Dark Mode</p>
+      </div>
+    </div>
+    <div id="flags" class="flags">
+      <div class="flags__item" data-language="es">
+        <img src="assets/icons/es.svg" alt="">
+      </div>
+      <div class="flags__item" data-language="en">
+        <img src="assets/icons/us.svg" alt="">
+      </div>
+    </div>
+    <div id="toggle-colors" class="colors">
+      <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+
+      <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
+
+      <div data-color="hsl(276, 84%, 56%)" class="colors__item colors__item--purple"></div>
+
+      <div data-color="hsl(46, 84%, 56%)" class="colors__item colors__item--orange"></div>
+    </div>
+
+  </header>
+  <main class="main">
+    <section class="column column--left">
+      <!-- PROFILE CARD -->
+      <article class="card card--profile">
+
+        <div class="card__image-container">
+          <img src="assets/images/foto-perfil-2.jpeg" alt="">
+        </div>
+        <div class="card__header">
+          <h2 class="card__title no-margin">Alejandro Jimenez Daza</h2>
+          <p class="card__subtitle" data-section="profile" data-value="rol">Front end developer</p>
+        </div>
+        <div class="card__body">
+          <div class="card__link">
+            <i class="fa fa-envelope icon"></i>
+            <a href="mailto:alejodaza061@gmail.com">alejodaza061@gmail.com</a>
+          </div>
+          <div class="card__link">
+            <i class="fa fa-phone icon"></i>
+            <a href="tel:3053328129">+57-3053328129</a>
+          </div>
+          <p class="card__text" data-section="profile" data-value="description">
+            Soy una persona dedicada y comprometida, con experiencia profesional y prácticas realizadas en la Liga de
+            Natación de Antioquia, donde trabajé durante 8 meses. Valoro el aprendizaje constante y disfruto asumir
+            nuevos retos que me permitan crecer tanto personal como profesionalmente.
+          </p>
+        </div>
+      </article>
+      <article class="card card--experience">
+        <h2 class="card__title">Experiences</h2>
+        <div class="experience">
+          <img src="assets/images/lna.png" alt="logo" class="experience__image">
+          <div class="experience__info">
+            <p class="experience__time" data-section="experience" data-value="first-job-dates">
+              Abr 2024 - Dic 2024
+            </p>
+            <h3 class="experience__job" data-section="experience" data-value="first-job-title">Practicante de desarrollo
+              y Auxiliar
+              de sistemas</h3>
+            <p class="experience__description" data-section="experience" data-value="first-job-description">
+              Administré y optimicé bases de datos MySQL/MariaDB, desarrollé y mantuve aplicaciones web heredadas en PHP
+              utilizando Scriptcase, e implementé interfaces en HTML y CSS. Además, colaboré en la instalación y
+              mantenimiento del sistema Swiss Timing Aquatics, asegurando su operatividad junto al equipo técnico.
+            </p>
+          </div>
+        </div>
+        <!-- <div class="experience">
+          <img src="assets/images/logo.png" alt="logo" class="experience__image">
+          <div class="experience__info">
+            <p class="experience__time">
+              feb 2017 - current
+            </p>
+            <h3 class="experience__job">Front end developer</h3>
+            <p class="experience__description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia labore sit tenetur asperiores, itaque
+              quis earum cupiditate eveniet ipsum eum nobis explicabo nesciunt qui, animi repudiandae totam eius
+              delectus et?
+            </p>
+          </div>
+        </div>
+        <div class="experience">
+          <img src="assets/images/logo.png" alt="logo" class="experience__image">
+          <div class="experience__info">
+            <p class="experience__time">
+              feb 2017 - current
+            </p>
+            <h3 class="experience__job">Front end developer</h3>
+            <p class="experience__description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia labore sit tenetur asperiores, itaque
+              quis earum cupiditate eveniet ipsum eum nobis explicabo nesciunt qui, animi repudiandae totam eius
+              delectus et?
+            </p>
+          </div>
+        </div> -->
+        <article class="card card--hobbies">
+          <h2 class="card__title">Hobbies</h2>
+          <div class="card__image-container">
+            <img src="assets/images/hobbie1.jpg" alt="Espalda con musculos">
+          </div>
+          <h3 class="hobbie__title" data-section="hobbies" data-value="first-hobbie-title">Calistenia</h3>
+          <p class="card__text" data-section="hobbies" data-value="first-description">Entreno calistenia varias veces a
+            la semana, disfrutando el desafío de levantar mi
+            propio peso y superando mis récords personales. Me motiva la mejora constante y la disciplina que este
+            entrenamiento requiere!</p>
+        </article>
+        <article class="card card--hobbies">
+          <div class="card__image-container">
+            <img src="assets/images/hobbie2.jpg" alt="Espalda con musculos">
+          </div>
+          <h3 class="hobbie__title" data-section="hobbies" data-value="second-hobbie-title">Diseño</h3>
+          <p class="card__text" data-section="hobbies" data-value="second-description">Me apasiona el diseño, creando
+            logos, imágenes y explorando nuevas tendencias. Siempre
+            busco aprender y mejorar, manteniéndome actualizado con las últimas innovaciones en el mundo del diseño!</p>
+        </article>
+      </article>
+    </section>
+    <section class="column column--right">
+      <article class="card">
+        <h2 class="card__title">Front End</h2>
+        <small data-section="mini-etiquetas" data-value="annos-xp">Años de experiencia</small>
+        <div class="skills">
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">6</span>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">HTML</p>
+            <div class="skills__bar skills__bar--30"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">CSS</p>
+            <div class="skills__bar skills__bar--30"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">JavaScript</p>
+            <div class="skills__bar skills__bar--20"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">PHP</p>
+            <div class="skills__bar skills__bar--40"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Python</p>
+            <div class="skills__bar skills__bar--30"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">SQL</p>
+            <div class="skills__bar skills__bar--40"></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2 class="card__title" data-section="mini-etiquetas" data-value="disenno">Diseño</h2>
+        <small data-section="mini-etiquetas" data-value="annos-xp">Años de experiencia</small>
+        <div class="skills">
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">6</span>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Photoshop</p>
+            <div class="skills__bar skills__bar--80"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Illustrator</p>
+            <div class="skills__bar skills__bar--60"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Figma</p>
+            <div class="skills__bar skills__bar--20"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Adobe XD</p>
+            <div class="skills__bar skills__bar--10"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <h2 class="card__title">Multimedia</h2>
+        <small data-section="mini-etiquetas" data-value="annos-xp">Años de experiencia</small>
+        <div class="skills">
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">6</span>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Sony Vegas</p>
+            <div class="skills__bar skills__bar--30"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Premiere</p>
+            <div class="skills__bar skills__bar--20"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Capcut</p>
+            <div class="skills__bar skills__bar--60"></div>
+          </div>
+      </article>
+      <article class="card card--project">
+        <div class="card__image-container">
+          <img src="assets/projects/orchid-laravel.jpg" alt="landing page" class="card__image">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#Php</span>
+            <span class="project__tag">#Laravel</span>
+            <span class="project__tag">#MySQL</span>
+            <span class="project__tag">#Composer</span>
+          </div>
+          <h2 class="card__title" data-section="projects" data-value="first-project-title">Crud orchid</h2>
+          <p class="card__text" data-section="projects" data-value="first-project">Implementé un panel administrativo en
+            Laravel utilizando Orchid, lo que permitió generar automáticamente un sistema de gestión de datos eficiente
+            con capacidades de permisos y roles. Esta implementación optimiza la administración de datos y facilita la
+            creación, actualización y eliminación de registros. Además, la interfaz fue diseñada para ser intuitiva y
+            fácil de usar, mejorando la experiencia de los administradores y usuarios. El sistema se destaca por su
+            seguridad y escalabilidad, adaptándose fácilmente a futuros cambios y necesidades de la aplicación.</p>
+          <div class="buttons">
+            <a href="#" class="button button--primary">Demo</a>
+            <a href="https://github.com/Alejandro-Jimenez-Daza/Crud-laravel-orchid" class="button button--ghost"
+              target="_blank">Code</a>
+          </div>
+      </article>
+      <article class="card card--project">
+        <div class="card__image-container">
+          <img src="assets/projects/crud-.net.jpg" alt="landing page" class="card__image">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#C#</span>
+            <span class="project__tag">#.NET framework</span>
+            <span class="project__tag">#Sql server</span>
+          </div>
+          <h2 class="card__title" data-section="projects" data-value="second-project-title">Crud .NET Autos</h2>
+          <p class="card__text" data-section="projects" data-value="second-project">Desarrollé un sistema completo de
+            gestión de autos con funcionalidades CRUD utilizando C# con el patrón MVC en .NET 6 y SQL Server. La
+            aplicación permite a los administradores agregar, actualizar, eliminar y consultar vehículos, mejorando la
+            eficiencia en el manejo de la flota. Implementé una arquitectura modular que facilita el mantenimiento y
+            futuras actualizaciones del sistema. La base de datos fue diseñada para ser flexible y optimizada para la
+            consulta de datos, lo que permite manejar un gran volumen de vehículos de manera rápida y confiable.</p>
+          <div class="buttons">
+            <a href="#" class="button button--primary">Demo</a>
+            <a href="https://github.com/Alejandro-Jimenez-Daza/Crud-.net-mvc-autos" class="button button--ghost"
+              target="_blank">Code</a>
+          </div>
+      </article>
+      <article class="card card--project">
+        <div class="card__image-container">
+          <img src="assets/projects/inventario.png" alt="landing page" class="card__image">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#Python</span>
+            <span class="project__tag">#Qt designer 5</span>
+            <span class="project__tag">#Sqlite</span>
+          </div>
+          <h2 class="card__title" data-section="projects" data-value="third-project-title">Inventario Qt Designer</h2>
+          <p class="card__text" data-section="projects" data-value="third-project">Creé un sistema de inventario
+            utilizando Python, Qt Designer 5 y SQLite, diseñado para facilitar el control y gestión de productos de
+            manera intuitiva y atractiva. La aplicación permite agregar, modificar y eliminar productos, así como
+            gestionar las existencias de manera eficiente. La interfaz gráfica fue desarrollada con Qt Designer para
+            ofrecer una experiencia de usuario fluida y visualmente atractiva, brindando una fácil navegación a los
+            administradores. Además, el uso de SQLite garantiza una solución ligera y rápida para el almacenamiento de
+            datos.</p>
+          <div class="buttons">
+            <a href="#" class="button button--primary">Demo</a>
+            <a href="https://github.com/Alejandro-Jimenez-Daza/Crud-pyqt5" class="button button--ghost"
+              target="_blank">Code</a>
+          </div>
+      </article>
+
+    </section>
+  </main>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
