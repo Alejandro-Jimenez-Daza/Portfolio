@@ -21,12 +21,12 @@
         "second-description": "I am passionate about design, creating logos, images, and exploring new trends. I always seek to learn and improve, staying up to date with the latest innovations in the design world!"
     },
     "projects": {
-        "first-project-title": "Crud Orchid",
-        "first-project": "I implemented an administrative panel in Laravel with Orchid, automatically generating a management system with permissions and roles, optimized for efficient data administration.",
-        "second-project-title": "Crud .NET Autos",
-        "second-project": "I developed a CRUD system for car management using C# with MVC in .NET 6 and SQL Server. I implemented a modular architecture that allows efficient vehicle management.",
-        "third-project-title": "Inventory Qt Designer",
-        "third-project": "I developed an inventory system with Python, Qt Designer 5, and SQLite, creating an intuitive and visually appealing interface for efficient product management."
+        "first-project-title": "Administrative Inventory",
+        "first-project": "I developed an administrative panel that manages the accounting of products for a business or store. It allows basic CRUD operations (create, read, update, and delete), along with a sidebar menu that includes suppliers and product categories, which can also be edited and deleted. It features a very pleasant and user-friendly interface, offering a good overall user experience. It also includes role-based user permissions.",
+        "second-project-title": "Currency Converter",
+        "second-project": "This is a website that allows users to check the real-time exchange rate between two currencies, with several options available to choose from. It works through the integration of an API for the conversion rates. It is simple and intuitive to use, with a user-friendly design.",
+        "third-project-title": "To-Do List App",
+        "third-project": "I developed a web application for personal task management. It uses MySQL as the data repository and is built entirely with vanilla PHP, JavaScript, HTML, and CSS. It implements fetch and promises for page interaction and features a minimalist, user-friendly interface. Users can create a list of tasks, mark them as completed as they go, edit, delete them, and view creation details."
     },
     "mini-etiquetas": {
         "disenno": "Design",

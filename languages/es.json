@@ -21,12 +21,12 @@
         "second-description": "Me apasiona el diseño, creando logos, imágenes y explorando nuevas tendencias. Siempre busco aprender y mejorar, manteniéndome actualizado con las últimas innovaciones en el mundo del diseño!"
     },
     "projects": {
-        "first-project-title": "Crud orchid",
-        "first-project": "Implementé un panel administrativo en Laravel con Orchid, generando automáticamente un sistema de gestión con permisos y roles, optimizado para administración de datos de manera eficiente.",
-        "second-project-title": "Crud .NET Autos",
-        "second-project": "Desarrollé un sistema CRUD para gestión de autos utilizando C# con MVC en .NET 6 y SQL Server. Implementé una arquitectura modular que permite administrar vehículos de manera eficiente.",
-        "third-project-title": "Inventario Qt Designer",
-        "third-project": "Desarrollé un sistema de inventario con Python, Qt Designer 5 y SqLite, creando una interfaz intuitiva y atractiva para una gestión eficiente y visualmente agradable de los productos."
+        "first-project-title": "Inventario administrativo",
+        "first-project": "Desarrolle un panel administrativo que lleva a cabo la contabilidad de productos de un negocio o local, que permite realizar las operaciones crud basicas (crear, listar, actualizar y eliminar), junto con un menu lateral que tambien tiene proveedor y categoria de los productos para editarlos y eliminarlos. Tambien tiene una interfaz de usuario bastante agradable y muy amigable con el mismo, junto con una buena experiencia para este tambien. Incluye tambien permisos basado en roles del usuario.",
+        "second-project-title": "Conversor de divisa",
+        "second-project": "Es una web que permite conocer la tasa de cambio de dos divisas en tiempo real, disponibles para escoger entre algunas divisas. Su funcionamiento se basa en la integración de una API para la tasa de conversión. Es sencilla de utilizar e intuitiva para el usuario, con buen diseño para el mismo.",
+        "third-project-title": "To-Do List App",
+        "third-project": "Desarrollé una aplicación web para gestionar tareas de una persona. Esta utiliza como repositorio de datos MySQL, realizada de manera totalmente vanilla con PHP, JavaScript, HTML y CSS, implementando fetch y promesas para la página, y de interfaz minimalista y sencilla para el usuario. Permite al usuario crear una lista de tareas que este tenga para realizar y, según las vaya completando, las puede marcar como completadas, editarlas, eliminarlas y ver el detalle de creación."
     },
     "mini-etiquetas": {
         "disenno": "Diseño",
